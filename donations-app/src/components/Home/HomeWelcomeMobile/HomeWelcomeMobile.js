@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import heroImg from "../../../assets/Home-Hero-Image.jpg";
 import decor from "../../../assets/Decoration.svg";
 import "./HomeWelcomeMobile.scss";
@@ -10,7 +11,7 @@ export const HomeWelcomeMobile = () => {
                 <h1 className="mobile-home-welcome-header">Zacznij pomagać! <br /> Oddaj niechciane rzeczy w zaufane ręce</h1>
                 <img src={decor} alt="decor" className="mobile-home-welcome-decor"/>
                 <div className="mobile-home-welcome-cta">
-                    <a href="#" className="mobile-home-welcome--btn">oddaj rzeczy</a>
+                    <Link to="/donate" className="mobile-home-welcome--btn">oddaj rzeczy</Link>
                     <a href="#" className="mobile-home-welcome--btn">zorganizuj zbiórkę</a>
                 </div>
                 <img src={heroImg} alt="hero" className="mobile-home-heroImg"/>
