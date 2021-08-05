@@ -1,2 +1,9 @@
+@import "colors";
+
 $font-base: 'Open Sans', sans-serif;
 $font-alt: 'Merriweather', serif;
+
+* {
+  font-family: $font-base;
+  color: $darkGrey;
+}

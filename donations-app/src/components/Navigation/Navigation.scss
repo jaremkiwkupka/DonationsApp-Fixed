@@ -1,0 +1,33 @@
+@import "src/scss/settings/colors";
+
+.user-navigation,
+.main-navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+.user-navigation--item {
+  color: $mediumGrey;
+  font-size: 0.875em;
+  text-decoration: none;
+  margin: 45px 15px;
+  padding: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.user-navigation--register {
+  border: 1px solid $yellow;
+}
+.main-navigation--item {
+  color: $mediumGrey;
+  text-decoration: none;
+  padding: 0 55px;
+
+  &:last-child {
+    padding-right: 0;
+  }
+  &:hover {
+    color: $yellow;
+  }
+}
