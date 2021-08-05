@@ -4,7 +4,7 @@ import "./Navigation.scss";
 
 export const Navigation = () => {
     return (
-        <nav>
+        <nav className="navigation container">
             <section className="user-navigation">
                 <Link to="/login" className="user-navigation--item">Zaloguj</Link>
                 <Link to="/registration" className="user-navigation--item user-navigation--register">Załóż konto</Link>

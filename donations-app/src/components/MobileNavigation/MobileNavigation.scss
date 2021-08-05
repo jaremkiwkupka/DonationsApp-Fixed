@@ -1,0 +1,53 @@
+@import "src/scss/settings/colors";
+
+.navbar {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.menu-bars--icon {
+  font-size: 2em;
+  padding: 20px;
+  color: $darkGrey;
+}
+.menu-close--icon {
+  font-size: 2em;
+  color: $darkGrey;
+}
+.nav-menu {
+  background-color: #FFFFFF;
+  width: 100vw;
+  height: auto;
+  padding:  0 0 20px 0;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: -250px;
+  transition: 850ms;
+}
+.nav-menu.active {
+  top: 0;
+  transition: 350ms;
+}
+.nav-text {
+  padding: 5px;
+}
+.nav-text a {
+  text-decoration: none;
+  color: $darkGrey;
+
+  &:hover {
+    color: $yellow;
+  }
+}
+.nav-menu-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-inline-start: 0;
+  width: 100%;
+  padding:  0 0 20px 20px;
+  border-bottom: 1px solid $lightGrey;
+}
