@@ -1,0 +1,42 @@
+@import "../../../scss/settings/_fonts.scss";
+@import "../../../scss/settings/colors";
+
+.home-heroImg {
+  width: 90%;
+  margin-left: -450px;
+}
+.home {
+  display: flex;
+  justify-content: space-around;
+}
+.home-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-welcome-header {
+  text-align: center;
+  font-size: 2.375em;
+  margin-bottom: 40px;
+}
+.home-welcome-decor {
+  margin-bottom: 65px;
+}
+.home-welcome--btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $darkGrey;
+  padding: 13px 43px;
+  border: 1px solid $darkGrey;
+  margin-right: 45px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    background-color: $yellow;
+    border-color: $yellow;
+  }
+}
