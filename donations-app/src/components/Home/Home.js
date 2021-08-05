@@ -5,15 +5,16 @@ import {MobileNavigation} from "../MobileNavigation/MobileNavigation";
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import {HomeWelcome} from "./HomeWelcome/HomeWelcome";
 import {HomeWelcomeMobile} from "./HomeWelcomeMobile/HomeWelcomeMobile";
+import {Statistics} from "../Statistics/Statistics";
 
 export const Home = () => {
     const isMobile = useMediaQuery('(max-width:1023px)');
-
 
     return (
         <main>
             {isMobile ? <MobileNavigation /> : <Navigation />}
             {isMobile ? <HomeWelcomeMobile /> : <HomeWelcome />}
+            <Statistics isMobile={isMobile}/>
         </main>
     )
 }

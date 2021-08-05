@@ -1,0 +1,42 @@
+.statistics {
+  background-image: url("../../assets/3-Columns-Background.png");
+  background-repeat: repeat;
+}
+.statistics-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0 85px 0;
+}
+.mobile-statistics-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.statistics-box {
+  margin: 0 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-statistics-box {
+  margin: 1em 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.statistics-box--number {
+  font-size: 5.625em;
+}
+.mobile-statistics-box--number {
+  font-size: 3.5em;
+}
+.statistics-box--header {
+  text-transform: uppercase;
+  text-align: center;
+}
+.statistics-box--text {
+  text-align: center;
+}
