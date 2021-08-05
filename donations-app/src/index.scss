@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300;400;600&display=swap');
-@import "./settings/_fonts.scss";
-@import "./settings/_colors.scss";
+@import "scss/settings/fonts";
+@import "scss/settings/colors";
 
 body {
-    margin: 0;
-    font-family: $font-base;
-    color: $darkGrey;
+  margin: 0;
+  font-family: $font-base;
+  color: $darkGrey;
 }
