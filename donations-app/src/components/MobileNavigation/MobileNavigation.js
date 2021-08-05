@@ -29,6 +29,12 @@ export const MobileNavigation = () => {
                             <li key={index} className={item.cName}><Link to={item.path}>{item.title}</Link></li>
                         )
                     })}
+                    <li>
+                        <ul className="nav-user">
+                            <li className="nav-user--item"><Link to="/login" className="nav-user--elem">Zaloguj</Link></li>
+                            <li className="nav-user--item"><Link to="/registration" className="nav-user--elem">Załóż konto</Link></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </>
