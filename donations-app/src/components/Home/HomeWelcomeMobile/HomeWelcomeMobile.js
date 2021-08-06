@@ -11,8 +11,8 @@ export const HomeWelcomeMobile = () => {
                 <h1 className="mobile-home-welcome-header">Zacznij pomagać! <br /> Oddaj niechciane rzeczy w zaufane ręce</h1>
                 <img src={decor} alt="decor" className="mobile-home-welcome-decor"/>
                 <div className="mobile-home-welcome-cta">
-                    <Link to="/donate" className="mobile-home-welcome--btn">oddaj rzeczy</Link>
-                    <a href="#" className="mobile-home-welcome--btn">zorganizuj zbiórkę</a>
+                    <Link to="/donate" className="mobile-home-btn">oddaj rzeczy</Link>
+                    <a href="#" className="mobile-home-btn">zorganizuj zbiórkę</a>
                 </div>
                 <img src={heroImg} alt="hero" className="mobile-home-heroImg"/>
             </div>

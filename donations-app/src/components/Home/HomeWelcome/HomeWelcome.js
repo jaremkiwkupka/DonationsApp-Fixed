@@ -12,8 +12,8 @@ export const HomeWelcome = () => {
                 <h1 className="home-welcome-header">Zacznij pomagać! <br /> Oddaj niechciane rzeczy w zaufane ręce</h1>
                 <img src={decor} alt="decor" className="home-welcome-decor"/>
                 <div className="home-welcome-cta">
-                    <Link to="/donate" className="home-welcome--btn">oddaj rzeczy</Link>
-                    <a href="#" className="home-welcome--btn">zorganizuj zbiórkę</a>
+                    <Link to="/donate" className="home-btn">oddaj rzeczy</Link>
+                    <a href="#" className="home-btn">zorganizuj zbiórkę</a>
                 </div>
             </div>
         </section>
