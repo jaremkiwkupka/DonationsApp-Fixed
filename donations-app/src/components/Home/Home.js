@@ -18,7 +18,7 @@ export const Home = () => {
             {isMobile ? <HomeWelcomeMobile /> : <HomeWelcome />}
             <Statistics isMobile={isMobile}/>
             <StepsInfo isMobile={isMobile}/>
-            <AboutUs />
+            <AboutUs isMobile={isMobile}/>
         </main>
     )
 }
