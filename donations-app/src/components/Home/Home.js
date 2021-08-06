@@ -7,6 +7,7 @@ import {HomeWelcome} from "./HomeWelcome/HomeWelcome";
 import {HomeWelcomeMobile} from "./HomeWelcomeMobile/HomeWelcomeMobile";
 import {Statistics} from "../Statistics/Statistics";
 import {StepsInfo} from "../StepsInfo/StepsInfo";
+import {AboutUs} from "../AboutUs/AboutUs";
 
 export const Home = () => {
     const isMobile = useMediaQuery('(max-width:1023px)');
@@ -17,6 +18,7 @@ export const Home = () => {
             {isMobile ? <HomeWelcomeMobile /> : <HomeWelcome />}
             <Statistics isMobile={isMobile}/>
             <StepsInfo isMobile={isMobile}/>
+            <AboutUs />
         </main>
     )
 }

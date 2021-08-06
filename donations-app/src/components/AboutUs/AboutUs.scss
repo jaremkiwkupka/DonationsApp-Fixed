@@ -1,0 +1,16 @@
+@import "/src/scss/settings/colors";
+
+.about-us {
+  display: flex;
+}
+.about-us--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $lightGrey;
+  padding: 0 140px;
+}
+.about-us--image {
+  width: 50%;
+}
