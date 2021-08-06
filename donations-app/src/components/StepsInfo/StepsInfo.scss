@@ -17,11 +17,13 @@
   flex-direction: column;
   align-items: center;
   background-color: $lightGrey;
-  padding: 70px;
+  padding: 70px 0;
   width: 100vw;
 }
 .steps-info-box--item {
   text-align: center;
+  width: 20%;
+  margin: 0 3%;
 }
 .mobile-steps-info-box--item {
   text-align: center;
