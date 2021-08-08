@@ -1,7 +1,7 @@
-export const Pagination = ({ totalFoundations, foundationsPerPage, paginate }) => {
+export const Pagination = ({ total, perPage, paginate }) => {
     const pageNumbers = [];
 
-    for(let i = 1; i <= Math.ceil(totalFoundations / foundationsPerPage); i++) {
+    for(let i = 1; i <= Math.ceil(total / perPage); i++) {
         pageNumbers.push(i);
     }
 

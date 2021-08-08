@@ -3,7 +3,7 @@ import { FoundationItem } from "./FoundationItem/FoundationItem";
 import { Pagination } from "../../CommonElements/Pagination/Pagination";
 import axios from "axios";
 
-export const Foundations = () => {
+export const Foundations = ({ toggleState }) => {
 
     const [foundations, setFoundations] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -31,8 +31,13 @@ export const Foundations = () => {
 
     return (
         <>
-            <FoundationItem foundations={ currentFoundations }/>
-            <Pagination totalFoundations={foundations.length} foundationsPerPage={foundationsPerPage} paginate={paginate}/>
+            <FoundationItem
+                foundations={ currentFoundations }
+                toggleState={ toggleState }
+                total={ foundations.length }
+                perPage={ foundationsPerPage }
+                paginate={ paginate }
+            />
         </>
     )
 }

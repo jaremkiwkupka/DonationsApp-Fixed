@@ -24,10 +24,6 @@
   cursor: pointer;
 }
 
-.active {
-  border: 1px solid $darkGrey;
-}
-
 .who-we-help-descr {
   width: 40%;
   text-align: center;
@@ -35,10 +31,8 @@
 }
 
 .who-we-help-tContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 50px;
+  display: none;
 }
 
 .mobile-who-we-have-table {
@@ -76,4 +70,14 @@
 
 .current-page {
   border: 1px solid $mediumGrey;
+}
+
+.active-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.active-tab {
+  border: 1px solid $darkGrey;
 }
