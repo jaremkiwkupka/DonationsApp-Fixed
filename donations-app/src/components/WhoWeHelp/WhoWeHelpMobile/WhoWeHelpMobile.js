@@ -3,6 +3,7 @@ import "./WhoWeHelpMobile.scss";
 import {Foundations} from "../Foundations/Foundations";
 import {Organizations} from "../Organizations/Organizations";
 import {useState} from "react";
+import {LocalCollections} from "../LocalCollections/LocalCollections";
 
 export const WhoWeHelpMobile = () => {
 
@@ -39,6 +40,7 @@ export const WhoWeHelpMobile = () => {
                 </p>
                 <Foundations toggleState={ toggleState } />
                 <Organizations toggleState={ toggleState } />
+                <LocalCollections toggleState={ toggleState } />
             </div>
         </section>
     )
