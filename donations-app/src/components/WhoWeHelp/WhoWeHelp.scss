@@ -41,9 +41,10 @@
   margin-bottom: 50px;
 }
 
-.who-we-have-table {
+.mobile-who-we-have-table {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
   width: 50vw;
   border-bottom: 1px solid $mediumGrey;
 }
