@@ -1,4 +1,4 @@
-@import "/src/scss/settings/colors";
+@import "src/scss/settings/colors";
 
 .steps-info {
   display: flex;
@@ -6,18 +6,22 @@
   align-items: center;
 }
 
-.steps-info-box {
+.mobile-steps-info-box {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
   background-color: $lightGrey;
   padding: 70px 0;
-  width: 100%;
+  width: 100vw;
 }
 
-.steps-info-box--item {
+.mobile-steps-info-box--item {
   text-align: center;
-  width: 20%;
-  margin: 0 3%;
+  margin-bottom: 5em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .steps-info-box--header {

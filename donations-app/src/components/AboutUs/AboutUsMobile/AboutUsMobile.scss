@@ -1,7 +1,9 @@
 @import "/src/scss/settings/colors";
 
-.about-us {
+.mobile-about-us {
   display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .about-us--content {
@@ -27,9 +29,7 @@
   height: 100%;
 }
 
-.about-us--image img {
-  width: 100%;
+.mobile-about-us--image img {
+  width: 100vw;
 }
-
-
 

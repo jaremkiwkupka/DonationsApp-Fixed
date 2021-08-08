@@ -1,12 +1,12 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Navigation.scss";
 
 export const Navigation = () => {
     return (
         <nav className="navigation container">
             <section className="user-navigation">
-                <Link to="/login" className="user-navigation--item">Zaloguj</Link>
+                <Link activeClass="active" to="/login" className="user-navigation--item" >Zaloguj</Link>
                 <Link to="/registration" className="user-navigation--item user-navigation--register">Załóż konto</Link>
             </section>
             <section className="main-navigation">

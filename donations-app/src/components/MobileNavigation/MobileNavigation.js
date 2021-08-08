@@ -31,7 +31,11 @@ export const MobileNavigation = () => {
                     })}
                     <li>
                         <ul className="nav-user">
-                            <li className="nav-user--item"><Link to="/login" className="nav-user--elem">Zaloguj</Link></li>
+                            <li
+                                className="nav-user--item"
+                            >
+                                <Link to="/login" className="nav-user--elem">Zaloguj</Link>
+                            </li>
                             <li className="nav-user--item"><Link to="/registration" className="nav-user--elem">Załóż konto</Link></li>
                         </ul>
                     </li>

@@ -8,17 +8,20 @@
   justify-content: center;
   height: 100%;
 }
+
 .mobile-home-welcome-header {
   text-align: center;
   font-size: 1.6em;
   margin-bottom: 2rem;
 }
+
 .mobile-home-welcome-cta {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 2.5rem auto;
 }
+
 .mobile-home-btn {
   text-decoration: none;
   text-transform: uppercase;
@@ -33,6 +36,7 @@
     border-color: $yellow;
   }
 }
+
 .mobile-home-heroImg {
   width: 100%;
 }
