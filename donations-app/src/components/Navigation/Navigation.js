@@ -6,7 +6,7 @@ export const Navigation = () => {
     return (
         <nav className="navigation container">
             <section className="user-navigation">
-                <Link 
+                <Link
                     to="/login"
                     className="user-navigation--item"
                 >
