@@ -11,6 +11,7 @@
   text-decoration: none;
   margin: 45px 15px;
   padding: 10px;
+  cursor: pointer;
 
   &:last-child {
     margin-right: 0;
@@ -23,6 +24,7 @@
   color: $mediumGrey;
   text-decoration: none;
   padding: 0 55px;
+  cursor: pointer;
 
   &:last-child {
     padding-right: 0;

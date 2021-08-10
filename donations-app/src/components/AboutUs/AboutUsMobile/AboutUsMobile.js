@@ -5,7 +5,7 @@ import "./AboutUsMobile.scss";
 
 export const AboutUsMobile = () => {
     return (
-        <section className="mobile-about-us">
+        <section className="mobile-about-us" id="about-us">
             <div className="about-us--content">
                 <h2 className="header">O nas</h2>
                 <Decor />

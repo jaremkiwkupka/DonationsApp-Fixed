@@ -9,7 +9,7 @@ import "../../Home/HomeWelcome/HomeWelcome.scss"
 
 export const StepsInfoMobile = () => {
     return (
-        <section className="steps-info container">
+        <section className="steps-info container" id="steps-info">
             <h2 className="header">Wystarczą 4 proste kroki</h2>
             <Decor />
             <div className="mobile-steps-info-box">

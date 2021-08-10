@@ -1,9 +1,9 @@
-import React, {useState} from "react";
-import "./MobileNavigation.scss";
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-scroll";
 import { GoThreeBars } from "react-icons/go";
 import { AiOutlineClose } from "react-icons/ai";
 import { SidebarData } from "./SidebarData/SidebarData";
+import "./MobileNavigation.scss";
 
 export const MobileNavigation = () => {
     const [sidebar, setSidebar] = useState(false);

@@ -6,7 +6,7 @@ import "./HomeWelcome.scss";
 export const HomeWelcome = () => {
 
     return (
-        <section className="home container">
+        <section className="home container" id="home">
             <img src={heroImg} alt="hero" className="home-heroImg"/>
             <div className="home-welcome">
                 <h1 className="home-welcome-header">Zacznij pomagać! <br /> Oddaj niechciane rzeczy w zaufane ręce</h1>

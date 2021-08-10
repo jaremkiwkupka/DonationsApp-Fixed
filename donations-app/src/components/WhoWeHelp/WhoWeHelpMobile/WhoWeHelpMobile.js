@@ -13,7 +13,7 @@ export const WhoWeHelpMobile = () => {
         setToggleState(index);
     }
     return (
-        <section className="who-we-help container">
+        <section className="who-we-help container" id="who-we-help">
             <div className="who-we-help-box">
                 <h2 className="header">Komu pomagamy?</h2>
                 <Decor />

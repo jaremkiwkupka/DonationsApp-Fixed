@@ -6,7 +6,7 @@ import "./HomeWelcomeMobile.scss";
 export const HomeWelcomeMobile = () => {
 
     return (
-        <section className="home">
+        <section className="home" id="home">
             <div className="mobile-home-welcome">
                 <h1 className="mobile-home-welcome-header">Zacznij pomagać! <br /> Oddaj niechciane rzeczy w zaufane ręce</h1>
                 <Decor />

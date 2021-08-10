@@ -10,7 +10,7 @@ import "../Home/HomeWelcome/HomeWelcome.scss"
 export const StepsInfo = () => {
 
     return (
-        <section className="steps-info">
+        <section className="steps-info" id="steps-info">
             <h2 className="header">Wystarczą 4 proste kroki</h2>
             <Decor />
             <div className="steps-info-box">

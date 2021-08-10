@@ -1,10 +1,11 @@
 @import "src/scss/settings/colors";
 
 .navbar {
-  background-color: #FFFFFF;
+  background-color: transparent;
   display: flex;
   justify-content: start;
   align-items: center;
+  position: fixed;
 }
 .menu-bars--icon {
   font-size: 2em;

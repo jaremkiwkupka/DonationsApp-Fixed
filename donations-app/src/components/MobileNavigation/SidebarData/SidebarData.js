@@ -1,27 +1,27 @@
 export const SidebarData = [
     {
         title: "Start",
-        path: "#",
+        path: "home",
         cName: "nav-text"
     },
     {
         title: "O co chodzi?",
-        path: "#",
+        path: "steps-info",
         cName: "nav-text"
     },
     {
         title: "O nas",
-        path: "#",
+        path: "about-us",
         cName: "nav-text"
     },
     {
         title: "Fundacja i organizacje",
-        path: "#",
+        path: "who-we-help",
         cName: "nav-text"
     },
     {
         title: "Kontakt",
-        path: "#",
+        path: "contact",
         cName: "nav-text"
     }
 ]
