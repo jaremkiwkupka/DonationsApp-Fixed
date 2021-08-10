@@ -1,0 +1,9 @@
+@import "src/scss/settings/colors";
+@import "src/scss/settings/fonts";
+
+.mobile-contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 2;
+}

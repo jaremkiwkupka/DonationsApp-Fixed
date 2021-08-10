@@ -10,6 +10,10 @@ import { AboutUs } from "../AboutUs/AboutUs";
 import { AboutUsMobile } from "../AboutUs/AboutUsMobile/AboutUsMobile";
 import { WhoWeHelp } from "../WhoWeHelp/WhoWeHelp";
 import { WhoWeHelpMobile } from "../WhoWeHelp/WhoWeHelpMobile/WhoWeHelpMobile";
+import { Contact } from "../Contact/Contact";
+import { ContactMobile } from "../Contact/ContactMobile/ContactMobile";
+import { Footer } from "../Footer/Footer";
+import { FooterMobile } from "../Footer/FooterMobile/FooterMobile";
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import "./Home.scss";
 
@@ -25,6 +29,8 @@ export const Home = () => {
             {isMobile ? <StepsInfoMobile /> : <StepsInfo />}
             {isMobile ? <AboutUsMobile /> : <AboutUs />}
             {isMobile ? <WhoWeHelpMobile /> : <WhoWeHelp />}
+            {isMobile ? <ContactMobile /> : <Contact />}
+            {isMobile ? <FooterMobile /> : <Footer />}
         </main>
     )
 }

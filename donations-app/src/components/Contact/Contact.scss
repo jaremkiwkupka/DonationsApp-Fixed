@@ -1,0 +1,86 @@
+@import "src/scss/settings/colors";
+@import "src/scss/settings/fonts";
+
+.contact {
+  display: flex;
+}
+
+.contact-background {
+  width: 50vw;
+  background-color: #FFFFFF;
+  opacity: 30%;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 2;
+  z-index: 1;
+  margin-top: 130px;
+}
+
+.contact-form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.contact-form-details {
+  display: flex;
+}
+
+.contact-form-name,
+.contact-form-email {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.contact-form-label {
+  font-size: 0.8125em;
+  font-weight: 700;
+  margin: 30px 0 15px 0;
+}
+
+.contact-form-input {
+  border: none;
+  border-bottom: 1px solid black;
+
+  &::placeholder {
+    color: #d3d3d3;
+    font-family: $font-base;
+  }
+}
+
+.contact-form-textarea {
+  background: none;
+  width: 100%;
+  height: 80px;
+  text-align: justify;
+}
+
+.contact-form-submit {
+  align-self: flex-end;
+  background: none;
+  border: 1px solid $mediumGrey;
+  padding: 15px 55px;
+  margin-top: 30px;
+  cursor: pointer;
+
+  &:hover {
+    background: $yellow;
+    border-color: $yellow;
+  }
+}

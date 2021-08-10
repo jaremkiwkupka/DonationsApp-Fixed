@@ -1,15 +1,11 @@
-import { Decor } from "../CommonElements/Decor/Decor";
+import { Decor } from "../../CommonElements/Decor/Decor";
 import { Formik } from 'formik';
-import image from "../../assets/Background-Contact-Form.jpg";
-import "./Contact.scss";
+import "./ContactMobile.scss";
 
-export const Contact = () => {
+export const ContactMobile = () => {
     return (
         <section className="contact">
-            <div className="contact-background">
-                <img src={image} alt="background" />
-            </div>
-            <div className="contact-form-container">
+            <div className="mobile-contact-form-container">
                 <h2 className="header">Skontaktuj się z nami</h2>
                 <Decor />
                 <div className="contact-form-content">
@@ -94,7 +90,9 @@ export const Contact = () => {
                             </form>
                         )}
                     </Formik>
-
+                    {/*<div className="mobile-contact-background">*/}
+                    {/*    <img src={image} alt="background" />*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </section>

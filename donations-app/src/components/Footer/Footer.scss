@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.footer-company {
+  position: absolute;
+  top: -60px;
+}
+
+.footer-social {
+  position: absolute;
+  top: -60px;
+  right: 260px;
+}
+
+.footer-social a {
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

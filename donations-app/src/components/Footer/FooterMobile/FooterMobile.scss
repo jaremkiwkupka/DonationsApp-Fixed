@@ -1,0 +1,13 @@
+.mobile-footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.mobile-footer-social a {
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
