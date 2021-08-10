@@ -1,7 +1,7 @@
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { Pagination } from "../../../CommonElements/Pagination/Pagination";
 
-export const FoundationItem = ({ foundations, toggleState, total, perPage, paginate }) => {
+export const FoundationItem = ({ foundations, toggleState, total, perPage, paginate, currentPage }) => {
 
     const isMobile = useMediaQuery('(max-width:1023px)');
 
@@ -20,7 +20,7 @@ export const FoundationItem = ({ foundations, toggleState, total, perPage, pagin
                     </div>
                 </div>
             ))}
-            <Pagination total={ total } perPage={ perPage } paginate={ paginate } />
+            <Pagination total={ total } perPage={ perPage } paginate={ paginate } currentPage={currentPage} />
         </div>
     )
 }

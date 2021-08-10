@@ -59,7 +59,7 @@
 .who-we-help-pagination {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 .who-we-help-pagination--page {
@@ -68,16 +68,13 @@
   cursor: pointer;
 }
 
-.current-page {
-  border: 1px solid $mediumGrey;
-}
-
 .active-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.active-tab {
+.active-tab,
+.active-page {
   border: 1px solid $darkGrey;
 }

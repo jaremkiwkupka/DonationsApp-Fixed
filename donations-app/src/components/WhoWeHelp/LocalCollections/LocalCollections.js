@@ -36,6 +36,7 @@ export const LocalCollections = ({ toggleState }) => {
                 total={ localCollections.length }
                 perPage={ localCollectionsPerPage }
                 paginate={ paginate }
+                currentPage={currentPage}
             />
         </>
     )

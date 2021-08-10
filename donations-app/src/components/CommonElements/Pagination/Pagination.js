@@ -1,4 +1,4 @@
-export const Pagination = ({ total, perPage, paginate }) => {
+export const Pagination = ({ total, perPage, paginate, currentPage }) => {
     const pageNumbers = [];
 
     for(let i = 1; i <= Math.ceil(total / perPage); i++) {
@@ -8,7 +8,7 @@ export const Pagination = ({ total, perPage, paginate }) => {
     return (
         <div className="who-we-help-pagination">
             {pageNumbers.map(number => (
-                <div className="who-we-help-pagination--page" onClick={() => paginate(number)}>{number}</div>
+                <div className={currentPage === number ? "who-we-help-pagination--page active-page" : "who-we-help-pagination--page"} onClick={() => paginate(number)}>{number}</div>
             ))}
         </div>
     )

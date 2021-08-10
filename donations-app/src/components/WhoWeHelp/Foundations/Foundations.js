@@ -37,6 +37,7 @@ export const Foundations = ({ toggleState }) => {
                 total={ foundations.length }
                 perPage={ foundationsPerPage }
                 paginate={ paginate }
+                currentPage={currentPage}
             />
         </>
     )
