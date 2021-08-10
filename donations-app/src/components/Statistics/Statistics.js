@@ -1,7 +1,6 @@
 import "./Statistics.scss";
 
 export const Statistics = () => {
-
     return (
         <section className="statistics">
             <div className="statistics-cont">

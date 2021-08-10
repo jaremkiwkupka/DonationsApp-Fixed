@@ -20,17 +20,26 @@ export const WhoWeHelp = () => {
                 <Decor />
                 <div className="who-we-help-choose">
                     <div
-                        className={toggleState === 1 ? "who-we-help-choose--item active-tab" : "who-we-help-choose--item"}
+                        className={toggleState === 1
+                            ? "who-we-help-choose--item active-tab"
+                            : "who-we-help-choose--item"
+                        }
                         onClick={() => toggleTab(1)}>
                         Fundacjom
                     </div>
                     <div
-                        className={toggleState === 2 ? "who-we-help-choose--item active-tab" : "who-we-help-choose--item"}
+                        className={toggleState === 2
+                            ? "who-we-help-choose--item active-tab"
+                            : "who-we-help-choose--item"
+                        }
                         onClick={() => toggleTab(2)}>
                         Organizacjom pozarządowym
                     </div>
                     <div
-                        className={toggleState === 3 ? "who-we-help-choose--item active-tab" : "who-we-help-choose--item"}
+                        className={toggleState === 3
+                            ? "who-we-help-choose--item active-tab"
+                            : "who-we-help-choose--item"
+                        }
                         onClick={() => toggleTab(3)}>
                         Lokalnym zbiórkom
                     </div>
